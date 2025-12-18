@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Rahul Srivastava" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rauhl Srivastava">Rahul Srivastava</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rahulsrivastava1826@gmail.com" class="contact-link">rahulsrivastava1826@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9369035438</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">26 Jan, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gorakhpur, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100087407236266" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/rahul_2604_" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_rahul.srivastava__/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I am an MCA student with a strong interest in software development and modern web technologies.
+
+          <p>I am currently learning Python, Web Development, and the fundamentals of Machine Learning as part of my academic curriculum and self-practice.</p>
+
+          <p>I enjoy building small projects, solving programming problems, and continuously improving my technical skills. <br>I am actively looking for internship and entry-level opportunities where I can apply my knowledge and gain real-world experience.</p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm Learning</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Learning HTML, CSS, and basic UI/UX principles by creating responsive and user-friendly web pages.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                Practicing frontend and backend development using Python, JavaScript, and basic frameworks through academic and personal projects.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ml.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning (Beginner)</h4>
+
+                <p class="service-item-text">
+                  Learning basic ML concepts and algorithms through small experiments and projects.
+                </p>
+              </div>
+
+            </li>
+
+             <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sql.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database & SQL</h4>
+
+                <p class="service-item-text">
+                  Working with MySQL to design and manage databases for academic projects.
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Projects</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/project.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Face Recognition Attendance System</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                      An academic project that uses face recognition to automatically mark student attendance using a camera, reducing manual effort and errors.<br>
+                      This academic project is designed to automate the attendance process using face recognition technology.
+                  <p>The system captures real-time images through a camera, detects faces, and matches them with stored student data.</p>
+                  <p>When a match is found, attendance is marked automatically with date and time, reducing proxy attendance and manual work.</p>
+                  <p>The project demonstrates the practical use of computer vision and machine learning concepts in real-world academic systems.</p>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dipti Sinha</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <div data-modal-text>
+               <p>
+                      An academic project that uses face recognition to automatically mark student attendance using a camera, reducing manual effort and errors.<br>
+                      This academic project is designed to automate the attendance process using face recognition technology.
+                  <p>The system captures real-time images through a camera, detects faces, and matches them with stored student data.</p>
+                  <p>When a match is found, attendance is marked automatically with date and time, reducing proxy attendance and manual work.</p>
+                  <p>The project demonstrates the practical use of computer vision and machine learning concepts in real-world academic systems.</p>
+                  </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      
+        <!--
+  - Technical Skills
+-->
+
+<section class="skills">
+
+  <h3 class="h3 skills-title">Technical Skills</h3>
+
+  <ul class="skills-list has-scrollbar">
+
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/python.png" alt="Python">
+      </a>
+    </li>
+
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/java.png" alt="Java">
+      </a>
+    </li>
+
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/c++.png" alt="C++">
+      </a>
+    </li>
+
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/mysql.png" alt="MySQL">
+      </a>
+    </li>
+
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/mongodb.png" alt="MongoDB">
+      </a>
+    </li>
+
+       <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/cehp.jpg" alt="CEHP">
+      </a>
+    </li>
+
+       <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/html.png" alt="Html">
+      </a>
+    </li>
+
+       <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/css.png" alt="Css">
+      </a>
+    </li>
+
+       <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/js.png" alt="JS">
+      </a>
+    </li>
+
+       <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/react.webp" alt="React">
+      </a>
+    </li>
+    
+    <li class="skill-item">
+      <a href="#">
+        <img src="./assets/images/linux.svg" alt="Linux">
+      </a>
+    </li>
+
+  </ul>
+
+</section>
+
+      </article>
+
+
+
+
+
+     <!--
+  - #RESUME
+-->
+
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- ================= EDUCATION ================= -->
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="school-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">
+          Master of Computer Applications (MCA)
+        </h4>
+
+        <span>2025 — 2027</span>
+
+        <p class="timeline-text">
+          Deen Dayal Upadhyay Gorakhpur University.  
+          Studying core subjects such as Data Structures, DBMS, Operating Systems,
+          Python Programming, and Software Engineering.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">
+          Bachelor of Computer Applications (BCA)
+        </h4>
+
+        <span>2022 — 2025</span>
+
+        <p class="timeline-text">
+          Completed undergraduate studies with a strong foundation in C, C++, Java,
+          Web Technologies, and Database Management Systems.
+        </p>
+
+      </li>
+
+    <!-- Class 12 -->
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">
+        Higher Secondary (Class XII)
+      </h4>
+
+      <span>2020 — 2022</span>
+
+      <p class="timeline-text">
+        Completed Class XII from CBSE Board with a focus on Biology and Science subjects.
+      </p>
+
+    </li>
+
+    <!-- Class 10 -->
+    <li class="timeline-item">
+
+      <h4 class="h4 timeline-item-title">
+        Secondary School (Class X)
+      </h4>
+
+      <span>2018 — 2020</span>
+
+      <p class="timeline-text">
+        Completed Class X from CBSE Board with emphasis on Mathematics and foundational sciences.
+      </p>
+
+    </li>
+
+    </ol>
+
+  </section>
+
+  <!-- ================= ACADEMIC PROJECTS ================= -->
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="code-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Academic Projects</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">
+          Face Recognition Attendance System
+        </h4>
+
+        <span>2025</span>
+
+        <p class="timeline-text">
+          Developed a Python-based attendance system using OpenCV and face recognition
+          techniques to automatically mark student attendance with date and time.
+        </p>
+
+      </li>
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">
+          Student Management System
+        </h4>
+
+        <span>2025</span>
+
+        <p class="timeline-text">
+          Built a basic system to manage student records including attendance and
+          marks using Python and MySQL.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="ribbon-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Certifications</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">
+          Certified Ethical Hakcing Professional (CEHP)
+        </h4>
+
+        <span>2025</span>
+
+        <p class="timeline-text">
+          Developed a foundational understanding of ethical hacking, covering networking fundamentals, system security principles, common cyber-attack techniques, and basic penetration testing methodologies.
+        </p>
+
+      </li>
+
+    </ol>
+
+  </section>
+
+</article>
+
+     <!-- #PORTFOLIO -->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <!-- FILTER BUTTONS -->
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Academic Projects</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Ongoing Projects</button>
+      </li>
+
+    </ul>
+
+    <!-- MOBILE SELECT -->
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Academic Projects</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Ongoing Projects</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- PROJECT LIST -->
+    <ul class="project-list">
+
+      <!-- Face Recognition -->
+      <li class="project-item active" data-filter-item data-category="academic projects">
+        <a href="#">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/face-recognition-attendance-system.jpg" alt="Face Recognition Attendance" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Face Recognition Attendance System</h3>
+          <p class="project-category">Academic Project</p>
+
+        </a>
+      </li>
+
+      <!-- Student Management -->
+      <li class="project-item active" data-filter-item data-category="academic projects">
+        <a href="#">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/Student-Management-System.png" alt="Student Management System" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-category">Academic Projects</p>
+
+        </a>
+      </li>
+
+      <!-- Stock Prediction -->
+      <li class="project-item active" data-filter-item data-category="ongoing projects">
+        <a href="#">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/sm.jpg" alt="Stock Market Prediction" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Stock Market Prediction</h3>
+          <p class="project-category">Ongoing Projects</p>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+      <!--
+  - #CONTACT
+-->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- ===== MAP (GORAKHPUR) ===== -->
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps?q=Gorakhpur%20Uttar%20Pradesh%20India&output=embed"
+        width="400"
+        height="300"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </figure>
+  </section>
+
+  <!-- ===== CONTACT FORM ===== -->
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <!-- 
+      Replace abcdwxyz with your Formspree form ID
+      Example: https://formspree.io/f/xqkrabcd
+    -->
+    <form
+      action="https://formspree.io/f/xkowwyaz"
+      method="POST"
+      class="form">
+
+      <div class="input-wrapper">
+        <input
+          type="text"
+          name="name"
+          class="form-input"
+          placeholder="Full name"
+          required>
+
+        <input
+          type="email"
+          name="email"
+          class="form-input"
+          placeholder="Email address"
+          required>
+      </div>
+
+      <textarea
+        name="message"
+        class="form-input"
+        placeholder="Your Message"
+        required></textarea>
+
+      <!-- Optional: Email subject -->
+      <input type="hidden" name="_subject" value="New Contact Message from Portfolio">
+
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
